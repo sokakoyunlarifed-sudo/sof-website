@@ -1,0 +1,81 @@
+.mainTop {
+  background: linear-gradient(90deg, #D62828, #B71C1C); /* kırmızı tonlu gradient */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.topLeft {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logoImg {
+  height: 55px;
+}
+
+.ataturkImg {
+  height: 55px;
+  border-radius: 4px;
+  box-shadow: 0 0 6px rgba(255,255,255,0.7);
+}
+
+.siteTitle {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topNav {
+  display: flex;
+  gap: 20px;
+}
+
+.topNav a {
+  color: #F8F9FA; /* beyaz yazı */
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 5px 0;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.topNav a:hover {
+  color: #F77F00; /* turuncu vurgu */
+  border-bottom: 2px solid #F77F00;
+}
+
+.topNav .active {
+  color: #F77F00;
+  border-bottom: 2px solid #F77F00;
+}
+
+@media (max-width: 768px) {
+  .mainTop {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 15px;
+  }
+
+  .topNav {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .topNav a {
+    margin: 6px 0;
+    font-size: 14px;
+    padding: 4px 0;
+    border-bottom: none;
+    transition: none;
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "İstanbul Sokak Festivali",
+    "date": "2025-10-10",
+    "desc": "İstanbul'da dev bir geleneksel oyun etkinliği düzenleniyor.",
+    "image": "/images/etkinlik1.jpeg",
+    "content": "Sek sek, yakar top, ip atlama ve çok daha fazlası bu etkinlikte olacak."
+  },
+  
+  {
+    "id": 2,
+    "title": "Geleneksel Oyunlar Günü",
+    "date": "2025-10-12",
+    "desc": "Geleneksel oyunların tanıtımı için özel bir gün planlandı.",
+    "image": "/images/etkinlik2.jpeg"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "Sokak Oyunları Çalıştayı",
+    "date": "2025-09-15",
+    "desc": "Federasyon üyeleriyle yıllık değerlendirme toplantısı yapılacaktır.",
+    "image": "/images/duyuru1.jpeg",
+    "content": "Çalıştayda 2025 planları ve faaliyetleri değerlendirilecek..."
+  },
+  {
+    "id": 2,
+    "title": "Gönüllü Başvuruları Başladı",
+    "date": "2025-09-01",
+    "desc": "Sokak oyunları etkinliklerinde görev almak isteyen gönüllüler başvurabilir.",
+    "image": "/images/duyuru2.jpeg",
+    "content": "Başvuru formu iletişim sayfasında yer almaktadır..."
+  },
+    {
+    "id": 3,
+    "title": "Gönüllü Aranıyor",
+    "desc": "Etkinliklerimizde görev alacak gönüllüler arıyoruz.",
+    "image": "/images/duyuru3.jpeg"
+  }
+]

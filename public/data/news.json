@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Sokak Oyunları Şenliği Başladı",
+    "date": "2025-09-10",
+    "desc": "Türkiye genelinde geleneksel sokak oyunları festivali düzenlendi.",
+    "image": "/images/haber1.jpeg",
+    "content": "Bu etkinlikte ip atlama, sek sek ve yakar top gibi birçok oyun oynandı..."
+  },
+  {
+    "id": 2,
+    "title": "Yeni Eğitim Programı",
+    "date": "2025-08-28",
+    "desc": "Çocuklara yönelik sokak oyunları eğitimleri başlatıldı.",
+    "image": "/images/haber2.jpeg",
+    "content": "Programda geleneksel oyunların tarihi ve kültürel önemi anlatılıyor..."
+  }
+]

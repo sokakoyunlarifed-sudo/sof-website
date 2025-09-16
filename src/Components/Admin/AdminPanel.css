@@ -1,0 +1,145 @@
+.inline-form {
+  background: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inline-form input,
+.inline-form textarea {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.admin-panel {
+  display: flex;
+  min-height: 100vh;
+}
+
+.admin-sidebar {
+  width: 240px;
+  background: #1e1e2f;
+  color: #fff;
+  padding: 20px;
+}
+
+.admin-sidebar h2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.admin-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.admin-sidebar li {
+  cursor: pointer;
+  padding: 10px 0;
+  transition: 0.2s;
+}
+
+.admin-sidebar li.active,
+.admin-sidebar li:hover {
+  color: #00ffcc;
+}
+
+.admin-content {
+  flex: 1;
+  padding: 30px;
+  background: #f5f5f5;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  width: 280px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card .buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-add {
+  background: #28a745;
+  color: #fff;
+}
+
+.btn-edit {
+  background: #ffc107;
+  color: #000;
+}
+
+.btn-delete {
+  background: #dc3545;
+  color: #fff;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  width: 400px;
+  border-radius: 8px;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal input, .modal textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+.card-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}

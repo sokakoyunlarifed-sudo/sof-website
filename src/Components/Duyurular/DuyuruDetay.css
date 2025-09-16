@@ -1,0 +1,33 @@
+/* detayContainer */
+.detayContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.detayContainer h1 {
+  color: #0D1B2A;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.detayContainer .date {
+  color: #778DA9;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.detayImage {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.detayContainer p {
+  color: #1B263B;
+  font-size: 17px;
+  line-height: 1.7;
+}

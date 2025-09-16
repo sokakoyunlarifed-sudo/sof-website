@@ -1,0 +1,144 @@
+.sliderContainer {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sliderWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.sliderContent {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+.sliderImage {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sliderText h3 {
+  margin: 0;
+  font-size: 24px;
+  color: #D62828;
+}
+
+.sliderText p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Butonun dışı */
+.sliderButton {
+  margin-top: 10px;
+  background-color: #D62828;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Linkin iç stili */
+.sliderLink {
+  color: white;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background: none;
+  font-weight: bold;
+}
+
+/* Hover efekti */
+.sliderButton:hover {
+  background-color: #a61c1c;
+}
+
+.sliderArrow {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  background: transparent;
+  color: #D62828;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  padding: 0 15px;
+}
+
+.sliderArrow.left {
+  left: 0;
+}
+
+.sliderArrow.right {
+  right: 0;
+}
+
+.sliderDots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #D62828;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  .sliderContent {
+    padding: 0 10px;
+  }
+
+  .sliderText h3 {
+    font-size: 20px;
+  }
+
+  .sliderText p {
+    font-size: 14px;
+  }
+
+  .sliderArrow {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "name": "Yönetim Kurulu",
+    "description": "Federasyonun karar alma sürecinden sorumlu kuruldur.",
+    "members": [
+      "Ahmet Demir - Başkan",
+      "Zeynep Yılmaz - Başkan Yardımcısı",
+      "Emre Çelik - Sekreter"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Denetim Kurulu",
+    "description": "Tüm faaliyetlerin yasal çerçevede ilerlemesini sağlar.",
+    "members": [
+      "Mehmet Kaya - Denetçi",
+      "Ayşe Güneş - Yardımcı Denetçi"
+    ]
+  }
+]

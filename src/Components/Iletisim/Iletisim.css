@@ -1,0 +1,46 @@
+.iletisimPage {
+  padding: 40px;
+  background: #E0E1DD;
+}
+
+.iletisimPage h1 {
+  color: #0D1B2A;
+  margin-bottom: 15px;
+}
+
+.iletisimInfo p {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #1B263B;
+}
+
+.iletisimForm {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+}
+
+.iletisimForm input,
+.iletisimForm textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.iletisimForm button {
+  padding: 12px;
+  background-color: #415A77;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.iletisimForm button:hover {
+  background-color: #1B263B;
+}

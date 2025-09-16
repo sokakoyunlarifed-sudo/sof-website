@@ -1,0 +1,45 @@
+.haberlerPage {
+  padding: 30px;
+  background: #E0E1DD;
+}
+
+.haberlerPage h1 {
+  color: #0D1B2A;
+  margin-bottom: 30px;
+}
+
+.haberlerGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.haberCard {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.haberCard:hover {
+  transform: translateY(-5px);
+}
+
+.haberCard img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.readMoreBtn {
+  display: inline-block;
+  margin-top: 10px;
+  background: #415A77;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+}

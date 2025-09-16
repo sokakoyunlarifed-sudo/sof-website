@@ -1,0 +1,106 @@
+.mainHome {
+  padding: 20px;
+  background-color: #e5e5e5;
+}
+
+/* Bölüm Başlıkları */
+.sectionTitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Grid Layout */
+.haberGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+/* Kart Tasarımı */
+.haberCard {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+}
+
+.haberCard:hover {
+  transform: scale(1.01);
+}
+
+/* Resim Alanı */
+.haberImageWrapper {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.haberImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* İçerik Alanı */
+.haberContent {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.haberTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #111;
+}
+
+.haberDate {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.haberDesc {
+  font-size: 1rem;
+  color: #333;
+  flex-grow: 1;
+}
+
+/* Buton */
+.haberReadMore {
+  margin-top: auto;
+  align-self: flex-start;
+  background-color: #d60000;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.haberReadMore:hover {
+  background-color: #a30000;
+}
+
+/* Mobil Uyumu */
+@media screen and (max-width: 600px) {
+  .haberImageWrapper {
+    height: 180px;
+  }
+
+  .haberTitle {
+    font-size: 1.1rem;
+  }
+
+  .haberDesc {
+    font-size: 0.95rem;
+  }
+}

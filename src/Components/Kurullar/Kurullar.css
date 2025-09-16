@@ -1,0 +1,37 @@
+.kurullarPage {
+  padding: 30px;
+  background: #F0F2F5;
+}
+
+.kurullarPage h1 {
+  color: #1B263B;
+  margin-bottom: 30px;
+}
+
+.kurulList {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.kurulCard {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px 25px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.kurulCard h2 {
+  color: #0D1B2A;
+  margin-bottom: 10px;
+}
+
+.kurulCard ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.kurulCard li {
+  list-style-type: disc;
+  line-height: 1.6;
+}
